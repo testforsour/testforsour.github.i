@@ -44,14 +44,14 @@
         </h1>
 
         <script type="text/javascript">
-            var count = 100;
+            var count = 10;
             var redirect = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
              
             function countDown(){
                 var timer = document.getElementById("timer");
                 if(count > 0){
                     count--;
-                    setTimeout("countDown()", 1000);
+                    setTimeout("countDown()", 10);
                 }
                 else{
                     window.location.href = redirect;
